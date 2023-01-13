@@ -1,15 +1,10 @@
 public class Main {
     public static void main(String[] args) {
+
         BMIrechner();
     }
 
-    public static void BMIrechner(){
-
-        double weight;
-        double height;
-        int age;
-        char gender;
-        double BMI;
+    public static void BMIrechner(double weight, double height, int age, char gender, double BMI){
 
         BMI = weight / height^2;
 
